@@ -1,0 +1,143 @@
+a,
+a:visited {
+  color: #3875e8;
+}
+
+h2 {
+  font-style: italic;
+}
+
+h3.translator {
+  font-weight: normal;
+  font-style: italic;
+}
+h3.content-header a {
+  font-size: 0.75em;
+}
+
+hr {
+  margin: 40px;
+}
+
+ol,
+ul {
+  padding-left: 25px;
+  text-align: left;
+}
+
+span {
+  display: block;
+}
+span .emphasize {
+  display: inline;
+}
+
+table {
+  margin: auto;
+}
+table th h3 {
+  margin: 0;
+}
+
+#four-right-efforts {
+  width: 275px;
+  height: auto;
+}
+
+#list-of-lists,
+#maha-list {
+  display: table;
+  margin: auto;
+}
+#list-of-lists li,
+#maha-list li {
+  margin: 4px auto;
+}
+
+#list-of-lists,
+#maha-list,
+#notes {
+  font-size: 0.9em;
+}
+
+#title-page {
+  margin: auto;
+  text-align: center;
+}
+#title-page h3 {
+  margin: 25px auto 0;
+}
+#title-page h4, #title-page h4 > span {
+  margin: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.emphasize {
+  text-decoration: underline;
+}
+
+.indented {
+  margin-left: 30px;
+}
+
+.list {
+  margin: auto;
+}
+.list .flex-lists {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list .flex-lists div {
+  flex: 1;
+}
+.list td,
+.list th {
+  border: 1px solid black;
+  padding: 3px;
+}
+.list th {
+  background-color: #3875e8;
+  color: white;
+}
+.list tbody td,
+.list tbody th {
+  background-color: antiquewhite;
+}
+.list tbody td:first-child:not(.sources) {
+  background-color: lightblue;
+}
+.list tbody td:nth-child(2) {
+  width: 50%;
+}
+.list tbody .sources {
+  background-color: antiquewhite;
+  font-weight: bold;
+  text-align: center;
+}
+.list .with-image {
+  text-align: center;
+}
+.list .with-image > * {
+  display: inline-block;
+}
+
+.sutta-tree {
+  width: 100%;
+  background-color: #3875e8;
+  border-spacing: 8px;
+}
+.sutta-tree td {
+  background-color: lightblue;
+}
+.sutta-tree td.emphasize {
+  background-color: #f9f9f9;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+.sutta-tree th h3 {
+  color: white;
+}/*# sourceMappingURL=stylesheet.css.map */

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" unique-identifier="bookid" version="2.0">
+    <metadata>
+        <dc:title>Weekly Suttas, Vol. 1</dc:title>
+        <dc:creator>Alec Fernandes</dc:creator>
+        <dc:identifier id="bookid">VOID</dc:identifier>
+        <dc:language>en-US</dc:language>
+        <meta name="cover" content="cover-image"/>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="title" href="title.html" media-type="application/xhtml+xml"/>
+        <item id="maha-sections" href="maha-sections.html" media-type="application/xhtml+xml"/>
+        <item id="thanks" href="thanks.html" media-type="application/xhtml+xml"/>
+        <item id="intro" href="intro.html" media-type="application/xhtml+xml"/>
+        <item id="anapanassati" href="anapanassati.html" media-type="application/xhtml+xml"/>
+        <item id="bhaddekaratta" href="bhaddekaratta.html" media-type="application/xhtml+xml"/>
+        <item id="mahasatipatthana" href="mahasatipatthana.html" media-type="application/xhtml+xml"/>
+        <item id="notes" href="notes.html" media-type="application/xhtml+xml"/>
+        <item id="notes-1" href="notes-1.html" media-type="application/xhtml+xml"/>
+        <item id="notes-2" href="notes-2.html" media-type="application/xhtml+xml"/>
+        <item id="notes-3" href="notes-3.html" media-type="application/xhtml+xml"/>
+        <item id="notes-4" href="notes-4.html" media-type="application/xhtml+xml"/>
+        <item id="notes-5" href="notes-5.html" media-type="application/xhtml+xml"/>
+        <item id="notes-6-and-7" href="notes-6-and-7.html" media-type="application/xhtml+xml"/>
+        <item id="notes-8" href="notes-8.html" media-type="application/xhtml+xml"/>
+        <item id="notes-9" href="notes-9.html" media-type="application/xhtml+xml"/>
+        <item id="notes-10" href="notes-10.html" media-type="application/xhtml+xml"/>
+        <item id="notes-11" href="notes-11.html" media-type="application/xhtml+xml"/>
+        <item id="notes-12" href="notes-12.html" media-type="application/xhtml+xml"/>
+        <item id="notes-13" href="notes-13.html" media-type="application/xhtml+xml"/>
+        <item id="notes-14" href="notes-14.html" media-type="application/xhtml+xml"/>
+        <item id="cover-image" href="images/cover.png" media-type="image/png"/>
+        <item id="efforts-diagram" href="images/four_right_efforts.jpg" media-type="image/jpg"/>
+        <item id="css" href="stylesheet.css" media-type="text/css"/>
+        <item id="css-map" href="stylesheet.css.map" media-type="text"/>
+        <item id="sass" href="stylesheet.scss" media-type="text"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="title"/>
+        <itemref idref="maha-sections"/>
+        <itemref idref="thanks"/>
+        <itemref idref="intro"/>
+        <itemref idref="anapanassati"/>
+        <itemref idref="bhaddekaratta"/>
+        <itemref idref="mahasatipatthana"/>
+        <itemref idref="notes"/>
+        <itemref idref="notes-1"/>
+        <itemref idref="notes-2"/>
+        <itemref idref="notes-3"/>
+        <itemref idref="notes-4"/>
+        <itemref idref="notes-5"/>
+        <itemref idref="notes-6-and-7"/>
+        <itemref idref="notes-8"/>
+        <itemref idref="notes-9"/>
+        <itemref idref="notes-10"/>
+        <itemref idref="notes-11"/>
+        <itemref idref="notes-12"/>
+        <itemref idref="notes-13"/>
+        <itemref idref="notes-14"/>
+    </spine>
+    <guide>
+        <reference href="title.html" type="title-page" title="Title Page"/>
+    </guide>
+</package>

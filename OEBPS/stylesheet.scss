@@ -1,0 +1,179 @@
+// TAGS
+
+a,
+a:visited {
+    color: #3875e8;
+    // font-weight: bold;
+}
+
+h2 {
+    font-style: italic;
+}
+
+h3 {
+    &.translator {
+        font-weight: normal;
+        font-style: italic;
+    }
+
+    &.content-header a {
+        font-size: 0.75em;
+    }
+}
+
+hr {
+    margin: 40px;
+}
+
+ol,
+ul {
+    padding-left: 25px;
+    text-align: left;
+}
+
+span {
+    display: block;
+
+    .emphasize {
+        display: inline;
+    }
+}
+
+table {
+    margin: auto;
+
+    th {
+        h3 {
+            margin: 0;
+        }
+    }
+}
+
+// IDs
+
+#four-right-efforts {
+    width: 275px;
+    height: auto;
+}
+
+#list-of-lists,
+#maha-list {
+    display: table;
+    margin: auto;
+
+    li {
+        margin: 4px auto;
+    }
+}
+
+#list-of-lists,
+#maha-list,
+#notes {
+    font-size: 0.9em;
+}
+
+#title-page {
+    margin: auto;
+    text-align: center;
+
+    h3 {
+        margin: 25px auto 0;
+    }
+
+    h4 {
+        &,
+        & > span {
+            margin: 0;
+        }
+    }
+}
+
+// CLASSES
+
+.centered {
+    text-align: center;
+}
+
+.emphasize {
+    text-decoration: underline;
+}
+
+.indented {
+    margin-left: 30px;
+}
+
+.list {
+    margin: auto;
+
+    .flex-lists {
+        display: flex;
+        flex-wrap: wrap;
+
+        div {
+            flex: 1;
+        }
+    }
+
+    td,
+    th {
+        border: 1px solid black;
+        padding: 3px;
+    }
+
+    th {
+        background-color: #3875e8;
+        color: white;
+    }
+
+    tbody {
+        td,
+        th {
+            background-color: antiquewhite;
+        }
+
+        td:first-child:not(.sources) {
+            background-color: lightblue;
+        }
+
+        td:nth-child(2) {
+            width: 50%;
+        }
+
+        .sources {
+            background-color: antiquewhite;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+
+    .with-image {
+        text-align: center;
+
+        & > * {
+            display: inline-block;
+        }
+    }
+}
+
+.sutta-tree {
+    width: 100%;
+    background-color: #3875e8;
+    border-spacing: 8px;
+
+    td {
+        background-color: lightblue;
+
+        &.emphasize {
+            background-color: #f9f9f9;
+            font-style: italic;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    }
+
+    th {
+        h3 {
+            color: white;
+        }
+    }
+}
